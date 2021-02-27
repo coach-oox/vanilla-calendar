@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./src/css/style.css" />
+        <title>Calendar @coach-oox</title>
+    </head>
+    <body>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <td class="arrow">
+                            <label for="prev" class="prev">&#60;</label>
+                        </td>
+                        <td class="current" colspan="5"></td>
+                        <td>
+                            <label for="next" class="next"> &#62; </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="sun">Sun</td>
+                        <td>Mon</td>
+                        <td>Tue</td>
+                        <td>Wed</td>
+                        <td>Thu</td>
+                        <td>Fri</td>
+                        <td class="sat">Sat</td>
+                    </tr>
+                </thead>
+                <tbody class="calendar"></tbody>
+            </table>
+        </div>
+
+        <script src="./src/js/calendar.js"></script>
+    </body>
+</html>
